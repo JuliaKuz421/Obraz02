@@ -951,7 +951,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #17bed2 !important;
+  color: #3700ff; !important;
 }
 
 .color-white {
@@ -982,7 +982,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #17bed2 !important;
+  background: #3700ff; !important;
 }
 
 .bg-color-white {
@@ -1457,3 +1457,4 @@ fieldset[disabled] .btn-theme {
   }
 }
 
+/* -----photogaleria------- */

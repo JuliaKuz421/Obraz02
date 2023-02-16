@@ -3271,12 +3271,32 @@ Copyright (c) 2015 Daniel Eden
   animation-name: slideOutUp;
 }
 
+
+
 .danse-name{
   position: absolute;
   margin: 80px 30px;
   font-size: 32px;
   font-weight: 600;
   color: rgb(255, 255, 255);
+  /* background-color: rgba(98, 98, 98, 0.331); */
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.danse-name-big{
+  position: absolute;
+  margin: 80px 110px;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  /* background-color: rgba(32, 14, 63, 0.658); */
+  border-radius: 5px;
+  /* padding: 30px; */
+  min-width: 295px;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -3290,4 +3310,38 @@ Copyright (c) 2015 Daniel Eden
   .danse-name{
     margin: 50px 30px;
   }
+}
+
+#photo{
+  display: flex;
+  margin: 0 1 auto;
+}
+
+
+.item-photo{
+  width: 730px;
+  height: 500px;
+  margin: 0px 0px 20px;
+  object-fit: cover;
+}
+
+.item-photo-2{
+  width: 230px;
+  height: 220px;
+  margin: 0px 15px 20px 0px;
+  object-fit: cover;
+}
+
+.item-photo-3{
+  width: 355px;
+  height: 220px;
+  margin: 0px 15px 20px 0px;
+  object-fit: cover;
+}
+
+.about-logo{
+  width: 150px;
+  height: 150px;
+  margin: 80px 0px 0px;
+  object-fit: cover;
 }
