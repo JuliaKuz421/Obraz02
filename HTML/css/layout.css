@@ -951,7 +951,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #3700ff; !important;
+  color: #3700ff !important;
 }
 
 .color-white {
