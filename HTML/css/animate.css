@@ -3272,45 +3272,37 @@ Copyright (c) 2015 Daniel Eden
 }
 
 
-
-.danse-name{
-  position: absolute;
-  margin: 80px 30px;
-  font-size: 32px;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-  /* background-color: rgba(98, 98, 98, 0.331); */
-  text-align: center;
-  border-radius: 5px;
-  text-align: center;
-  /* padding: 10px; */
-}
-
+/* ---------------направления---------------- */
+.danse-name,
 .danse-name-big{
   position: absolute;
-  margin: 80px 110px;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: 600;
-  color: rgb(255, 255, 255);
-  /* background-color: rgba(32, 14, 63, 0.658); */
-  border-radius: 5px;
-  /* padding: 30px; */
-  min-width: 295px;
+  color: #ffffff;
+  background-color: rgba(75, 18, 248, 0.857);
+  padding: 70px 30px;
+  min-width: 350px;
+  min-height: 190px;
   text-align: center;
 }
 
+
 @media (max-width: 767px) {
+  .full-width{
+    max-width: 400px;
+    max-height: 150px;
+  }
+  .work-overlay{
+    margin: 17px;
+  }
+  .danse-name-big,
   .danse-name{
-    font-size: 50px;
-    margin: 100px;
+    width: 500px;
+    height: 180px;
   }
 }
 
-@media (max-width: 400px) {
-  .danse-name{
-    margin: 50px 30px;
-  }
-}
+/* --------------photo----------------------- */
 
 #photo{
   display: flex;
@@ -3339,6 +3331,16 @@ Copyright (c) 2015 Daniel Eden
   object-fit: cover;
 }
 
+@media (max-width: 1199px) {
+  .item-photo-2,
+  .item-photo-3{
+    width: 730px;
+    height: 550px;
+    margin: 0px 0px 20px;
+  }
+}
+
+/* ------------------------logo------------------------ */
 .about-logo{
   width: 150px;
   height: 150px;
